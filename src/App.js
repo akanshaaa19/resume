@@ -1,5 +1,4 @@
-import classes from './App.module.css';
-import classes2 from './lightmode.module.css'
+import './App.css';
 import Navigation from './components/UI/Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -16,7 +15,7 @@ function App() {
     setIsDark(!isDark)
   }
   return (
-    <div className={!isDark ? classes.lightMode : classes.App}>
+    <div className={'App'}>
       <Navigation switchMode={switchMode} />
       {/* <Route path='/'>
         <Redirect to='/home' />
