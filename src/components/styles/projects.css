@@ -11,5 +11,6 @@
     margin: 0;
     width: 85vw;
     margin: 0 auto;
+    scroll-snap-type: both mandatory;
   }
 }

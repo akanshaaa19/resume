@@ -70,5 +70,7 @@
 @media only screen and (max-width: 768px) {
   .card-div{
     width: 85vw;
+    scroll-snap-type: x mandatory;
+
   }
 }
