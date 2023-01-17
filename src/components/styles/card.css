@@ -1,0 +1,74 @@
+.card-div {
+  /* width: fit-content; */
+  margin: 0;
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc:hover.card-img:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stack{
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.links a {
+  padding: 0.5rem;
+}
+
+.links a :hover {
+  color: var(--pink2);
+  transform: translateY(-3px);
+}
+
+.card-img {
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: fit-content;
+}
+.card-img img {
+  width: 100%;
+  margin-top: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.desc {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(312deg, rgb(26, 24, 24) 0%, rgb(46, 45, 45) 100%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.desc h3 {
+  margin: 1rem 0;
+  font-weight: 800;
+  color: var(--pink1);
+}
+
+@media only screen and (max-width: 768px) {
+  .card-div{
+    width: 85vw;
+  }
+}

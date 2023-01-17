@@ -1,0 +1,56 @@
+#about h2{
+    margin-bottom: 0;
+}
+
+.about{
+    margin-left: 4rem;
+}
+
+.self-picture{
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.69)
+}
+
+.about-div{
+    align-items: center;
+}
+#about p{
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* #about{
+        padding: 5% 10%;
+    } */
+    .about-image{
+        display: none;
+    }
+    .about-text{
+        font-size: 0.8rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about{
+        margin-left: 1rem;
+    }
+
+    #about h2{
+        margin-bottom: 1.5rem;
+    }
+
+    #about p{
+        padding: 0;
+        text-align: justify;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .download-btn{
+        padding: 10px 20px;
+    }
+}

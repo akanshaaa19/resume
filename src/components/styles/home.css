@@ -1,0 +1,46 @@
+#home{
+    width: 50vw;
+}
+.home-heading{
+    font-size: 5rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.hi{
+    display: block;
+}
+
+.name{
+    color: var(--pink1);
+    font-weight: 800;
+}
+
+.home-p{
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #home{
+        width: fit-content;
+    }
+
+    .intro{
+        padding-top: 100px;
+    }
+    .home-heading{
+        font-size: 3rem;
+    }
+    
+    .home-p{
+        font-size: 1rem;
+        width: 100%;
+        display: inline;
+    }
+
+    .hi-btn{
+        padding: 10px 20px;
+        display: block;
+    }
+  }

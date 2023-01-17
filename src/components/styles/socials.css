@@ -1,0 +1,40 @@
+.socials{
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 0rem;
+    right: 4rem;
+    width: 10vw;
+
+}
+
+.socials li:hover{
+    color: var(--pink2);
+    /* font-size: 1.2rem; */
+    transform: translateY(-3px);
+}
+
+.light-mode{
+    height: 5%;
+    border: none;
+    background-color: transparent;
+}
+
+.light-mode{
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+    .socials{
+        /* display: none; */
+        top: 0rem;
+        right: 10rem;
+    }
+
+    .socials i{
+        margin: 0 1rem;
+    }
+}

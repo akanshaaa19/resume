@@ -1,0 +1,31 @@
+.nav{
+    /* display: flex; */
+    position: fixed;
+    bottom: 3.5rem;
+    right: 4rem;
+    width: 10vw;
+}
+
+.nav{
+    flex-direction: column;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.nav a:hover{
+    transform: translateY(-3px);
+    color: var(--pink2);
+}
+
+.active{
+    color: var(--pink2) !important;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+}

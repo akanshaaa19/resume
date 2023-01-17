@@ -1,0 +1,41 @@
+.stack-logo {
+  padding: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.bullet{
+    font-size: 0.5rem;
+    color: var(--pink1);
+    padding-right: 1rem;
+}
+
+.skill-list {
+  text-align: center;
+  padding: 30px 20px;
+  margin: auto 10px;
+}
+
+.skills {
+  margin-left: 4rem;
+  margin-right: 12rem;
+}
+
+.skill-div{
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .skills{
+        margin: 0;
+    }
+    .skill-list{
+        padding: 0;
+        margin: 0;
+    }
+    .stack-logo {
+      padding: 0.5rem;
+    }
+    .bullet{
+      padding-right: 0.5rem;
+  }
+}
