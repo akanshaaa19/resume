@@ -15,7 +15,7 @@ function Projects() {
               src={project.src}
               github={project.github}
               live={project.live}
-              title={project.title}
+              title={project.active}
               desc={project.description}
               stack={project.stack}
             />
