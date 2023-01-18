@@ -14,8 +14,8 @@ function Projects() {
             <Card
               src={project.src}
               github={project.github}
-              live={project.live}
-              title={project.active}
+              live={project.active}
+              title={project.title}
               desc={project.description}
               stack={project.stack}
             />
