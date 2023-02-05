@@ -3,6 +3,10 @@
   font-size: 1.5rem;
 }
 
+#skills{
+  height: 100vh;
+}
+
 .bullet{
     font-size: 0.5rem;
     color: var(--pink1);
@@ -16,8 +20,8 @@
 }
 
 .skills {
-  margin-left: 4rem;
-  margin-right: 12rem;
+  /* margin-left: 4rem;
+  margin-right: 12rem; */
 }
 
 .skill-div{

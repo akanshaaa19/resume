@@ -1,14 +1,17 @@
 import "../../components/styles/card.css";
 function Card(props) {
   return (
-    <div className="card-div  row card">
+    <div className="card-div col-4  row card ">
       <div className="card-img">
         <img src={props.src} />
       </div>
 
       <div className="desc">
-        <h3 className="card-title">{props.title}</h3>
-        <p className="card-text">{props.desc}</p>
+        <div className="card-body">
+          <h3 className="card-title">{props.title}</h3>
+          <p className="card-text">{props.desc}</p>
+        </div>
+
         <div className=" card-footer">
           <div className="stack">{props.stack}</div>
           <div className="links">

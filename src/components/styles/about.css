@@ -1,56 +1,69 @@
-#about h2{
-    margin-bottom: 0;
+#about {
+  height: 100vh;
 }
 
-.about{
-    margin-left: 4rem;
+#about h2 {
+  margin-bottom: 0;
 }
 
-.self-picture{
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 30px;
-    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.69)
+.about {
+  /* margin-left: 4rem; */
+
 }
 
-.about-div{
-    align-items: center;
+.about-image{
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
 }
-#about p{
-    width: 80%;
+
+.self-picture {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.69);
+}
+
+.about-div {
+  align-items: center;
+  row-gap: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#about p {
+  /* width: 80%; */
 }
 
 @media only screen and (max-width: 768px) {
-
-    /* #about{
+  /* #about{
         padding: 5% 10%;
     } */
-    .about-image{
-        display: none;
-    }
-    .about-text{
-        font-size: 0.8rem;
-        width: 100%;
-        margin: 0;
-    }
+  .about-image {
+    display: none;
+  }
+  .about-text {
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0;
+  }
 
-    .about{
-        margin-left: 1rem;
-    }
+  .about {
+    margin-left: 1rem;
+  }
 
-    #about h2{
-        margin-bottom: 1.5rem;
-    }
+  #about h2 {
+    margin-bottom: 1.5rem;
+  }
 
-    #about p{
-        padding: 0;
-        text-align: justify;
-        font-size: 1rem;
-        width: 100%;
-    }
+  #about p {
+    padding: 0;
+    text-align: justify;
+    font-size: 1rem;
+    width: 100%;
+  }
 
-    .download-btn{
-        padding: 10px 20px;
-    }
+  .download-btn {
+    padding: 10px 20px;
+  }
 }

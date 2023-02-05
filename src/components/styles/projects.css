@@ -1,7 +1,32 @@
-.projects {
-  margin-left: 4rem;
+#projects{
+  padding: 5rem 0;
 }
 
+.projects {
+  /* margin-left: 4rem; */
+  /* overflow-x: scroll; */
+  /* flex-wrap: nowrap; */
+  /* width: 90%; */
+  /* height: 450px; */
+  overflow: hidden;
+}
+
+.github-link{
+  padding: 1rem 0;
+  /* position: absolute; */
+  right: 0;
+  display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    color: var(--pink1);
+    /* text-decoration: underline; */
+    
+}
+
+.github-link a{
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid var(--pink1);
+}
 @media only screen and (max-width: 768px) {
   .projects {
     display: flex;
