@@ -11,8 +11,8 @@ const projects = [
   {
     index: 1,
     src: "https://i.ibb.co/RzMwcf1/resume.png",
-    github: "https://github.com/akanshaaa19/resume-generator",
-    active: "https://akanshaaa19.github.io/resume-generator",
+    github: "https://github.com/akanshaaa19/resume-app",
+    active: "https://akanshaaa19.github.io/resume-app",
     title: "Resume Generator",
     description:
       "This takes up your details and generates a resume, which you can download in PDF format and share.",

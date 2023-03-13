@@ -87,7 +87,7 @@ p {
     padding: 5rem 0 0 0;
   }
   section {
-    height: 25%;
+    height: 25% !important;
     padding: 10% 8%;
     margin: 0 auto;
   }
