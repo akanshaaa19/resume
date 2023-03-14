@@ -1,0 +1,34 @@
+.backdrop{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.project-overlay{
+    position: fixed;
+    top: 10vh;
+    left: 15%;
+    background-color: white;
+    color: #000;
+    height: 80vh;
+    width: 70vw;
+    border-radius: 15px;
+    z-index: 30;
+}
+
+.project-overlay img{
+    width: 100%;
+    height: 50%;
+}
+.another-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carousel-box{
+    width: 50vw;
+}
