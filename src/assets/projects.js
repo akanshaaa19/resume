@@ -18,8 +18,8 @@ const projects = [
     index: 49,
     projectId: "p3",
     src: "https://i.ibb.co/CWvvfrb/Screenshot-243.png",
-    github: "https://github.com/akanshaaa19/zepto-assignment",
-    active: "https://akanshaaa19.github.io/brikow-assignment/#/Dashboard",
+    // github: "https://github.com/akanshaaa19/zepto-assignment",
+    // active: "https://akanshaaa19.github.io/brikow-assignment/#/Dashboard",
     title: "Faculty Feedback System",
     description:
       "Application for students to rate their faculty and course work.",

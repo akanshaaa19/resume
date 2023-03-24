@@ -1,4 +1,4 @@
-import resume from "../assets/akansha-resume.pdf";
+import resume from "../assets/akansha-resume-updated.pdf"
 import image from "../assets/me.jpg";
 
 import "../components/styles/about.css";
