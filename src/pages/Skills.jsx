@@ -9,9 +9,8 @@ function Skill() {
 
       <div className="skills">
         <p>
-          I mostly work with ReactJS and Tailwind to create web apps. I use
-          {" "}<em><b>React Context API</b></em> and <em><b>Redux</b></em> to make state managment easier in the web
-          apps. I have also worked with Figma for UI design.
+          I mostly work with ReactJS and NodeJS to create web apps. I have worked with 
+          <em><b> React Context API</b></em>, <em><b>Redux</b></em>, <em><b>JWT</b></em>, <em><b>Multer</b></em> etc. I have also worked with Figma for UI design.
           <br />
           Here are some technologies I have been working with:
         </p>
