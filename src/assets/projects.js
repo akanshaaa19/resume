@@ -24,6 +24,21 @@ const projects = [
     description:
       "Application for students to rate their faculty and course work.",
     stack: "Redux Tailwind Firebase",
+  },  
+
+//   <a href="https://ibb.co/VV80ysz"><img src="https://i.ibb.co/BLRHD9Q/login.png" alt="login" border="0"></a>
+// <a href="https://ibb.co/X80fykD"><img src="https://i.ibb.co/16yYsJM/feed.png" alt="feed" border="0"></a>
+// <a href="https://ibb.co/0fvShRz"><img src="https://i.ibb.co/Vv5Z2ck/post.png" alt="post" border="0"></a>
+  {
+    index: 491,
+    projectId: "p4",
+    src: "https://i.ibb.co/Vv5Z2ck/post.png",
+    github: "https://github.com/akanshaaa19/blog-app-mern",
+    // active: "https://akanshaaa19.github.io/brikow-assignment/#/Dashboard",
+    title: "Blog App",
+    description:
+      "A fullstack application using mongodb as the database and includes authentication using JWT tokens, image upload using multer and react state manageent.",
+    stack: "JWT MongoDB Multer",
   },
 
   {
