@@ -1,4 +1,5 @@
 import resume from "../assets/akanshaResume.pdf"
+import updatedResume from "../assets/resume_akansha.pdf"
 import image from "../assets/me.jpg";
 
 import "../components/styles/about.css";
@@ -19,7 +20,7 @@ function About() {
               hackathons, networking with new people, and sharing ideas.
             </p>
             <Button class="outlined">
-              <a href={resume} download="akanshaResume">
+              <a href={updatedResume} download="akanshaResume">
                 Resume <i className="fas fa-download"></i>
               </a>
             </Button>
